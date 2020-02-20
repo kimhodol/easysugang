@@ -10,9 +10,9 @@ var courses = [
 
 function easySugang(courses) {
   for (let course of courses) {
-    let courseNumber = course[0];
-    let courseClass = course[1];
-    let url = `http://sugang.korea.ac.kr/SugangAction.jsp?cour_cd_1=${courseNumber}&cour_cls_2=${courseClass}&cour_div_3=99`;
+    const courseNumber = course[0];
+    const courseClass = course[1];
+    const url = `https://sugang.korea.ac.kr/SugangAction.jsp?cour_cd_1=${courseNumber}&cour_cls_2=${courseClass}&cour_div_3=99`;
 
     fetch(url)
       .then(data => data.text())
