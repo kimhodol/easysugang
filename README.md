@@ -1,3 +1,7 @@
+> **Deprecated**
+>
+> 2020년 여름계절학기부터 수강신청 시스템 개편으로 인하여 이 저장소의 프로젝트는 더 이상 유지보수 하지 않습니다.
+
 # easySugang (Korea Univ.)
 <p align="center">
   <img src="https://github.com/woonjangahn/easySugang/blob/master/easySugang_sample.gif?raw=true" />
